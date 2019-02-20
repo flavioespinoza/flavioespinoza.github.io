@@ -3,8 +3,8 @@
 ```bash {.copy-clip}
 sudo hello flavio :)
 ```
---
-https://flavioespinoza.github.io
+## Using Axios to post a GraphQL mutation using ES6 Template Literals
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
 ```javascript 
 _createReservation (firstName, lastName, hotelName, arrivalDate, departureDate) {
@@ -19,7 +19,7 @@ _createReservation (firstName, lastName, hotelName, arrivalDate, departureDate) 
                 mutation {
                     createReservation(
                         data: {
-                                name: "${firstName} ${lastName}" // <-- MUST USE DOUBLE QUOTES
+                                name: "${firstName} ${lastName}"
                                 hotelName: "${hotelName}"
                                 arrivalDate: "${arrivalDate}"
                                 departureDate: "${departureDate}"
@@ -52,3 +52,4 @@ _createReservation (firstName, lastName, hotelName, arrivalDate, departureDate) 
     })
 }
 ```
+
