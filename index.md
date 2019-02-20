@@ -3,10 +3,13 @@
 ```bash {.copy-clip}
 sudo hello flavio :)
 ```
-## Using Axios to post a GraphQL mutation using ES6 Template Literals
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+### Using Axios to post a GraphQL mutation using ES6 Template Literals
 
-```javascript 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals" target="_blank">
+    Click here to learn more about Template Literals
+</a>
+
+```javascript{.darcula}
 _createReservation (firstName, lastName, hotelName, arrivalDate, departureDate) {
     
     const _endpoint = 'https://us1.prisma.sh/public-luckox-377/reservation-graphql-backend/dev'
