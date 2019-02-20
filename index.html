@@ -362,8 +362,9 @@ html body blockquote {
       <h1 class="mume-header" id="flavio-espinoza-github-pages">Flavio Espinoza Github Pages</h1>
 
 <pre data-role="codeBlock" data-info="bash {.copy-clip}" class="language-bash copy-clip"><span class="token function">sudo</span> hello flavio :<span class="token punctuation">)</span>
-</pre><p>--<br>
-<a href="https://flavioespinoza.github.io">https://flavioespinoza.github.io</a></p>
+</pre><h2 class="mume-header" id="using-axios-to-post-a-graphql-mutation-using-es6-template-literals">Using Axios to post a GraphQL mutation using ES6 Template Literals</h2>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals</a></p>
 <pre data-role="codeBlock" data-info="javascript" class="language-javascript"><span class="token function">_createReservation</span> <span class="token punctuation">(</span>firstName<span class="token punctuation">,</span> lastName<span class="token punctuation">,</span> hotelName<span class="token punctuation">,</span> arrivalDate<span class="token punctuation">,</span> departureDate<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     
     <span class="token keyword">const</span> _endpoint <span class="token operator">=</span> <span class="token string">&apos;https://us1.prisma.sh/public-luckox-377/reservation-graphql-backend/dev&apos;</span>
@@ -376,7 +377,7 @@ html body blockquote {
                 mutation {
                     createReservation(
                         data: {
-                                name: &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>firstName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>lastName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot; // &lt;-- MUST USE DOUBLE QUOTES
+                                name: &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>firstName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>lastName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot;
                                 hotelName: &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>hotelName<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot;
                                 arrivalDate: &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>arrivalDate<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot;
                                 departureDate: &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>departureDate<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot;
@@ -411,7 +412,11 @@ html body blockquote {
 </pre>
       </div>
       <div class="md-sidebar-toc"><ul>
-<li><a href="#flavio-espinoza-github-pages">Flavio Espinoza Github Pages</a></li>
+<li><a href="#flavio-espinoza-github-pages">Flavio Espinoza Github Pages</a>
+<ul>
+<li><a href="#using-axios-to-post-a-graphql-mutation-using-es6-template-literals">Using Axios to post a GraphQL mutation using ES6 Template Literals</a></li>
+</ul>
+</li>
 </ul>
 </div>
       <a id="sidebar-toc-btn">&#x2261;</a>
